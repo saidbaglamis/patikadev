@@ -18,5 +18,6 @@ public class NotOrtalamasi {
         turkce = scanner.nextInt();
         ortalama = (mat + fizik + kimya + tarih + turkce) / 5.0;
         System.out.println("Ortalamaniz : " + ortalama);
+        System.out.println(ortalama >= 60 ? "Sinifi Gecti" : "Sinifta Kaldi");
     }
 }
